@@ -1,2 +1,1 @@
-#!/bin/bash
-io redirections and filters readme file
+io redirections and filters read me file
