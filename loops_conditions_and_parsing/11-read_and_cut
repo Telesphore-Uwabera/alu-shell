@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#woow
 FILENAME="/etc/passwd"
 while IFS=: read -r username password userid groupid comment homedir cmdshell 
 do
