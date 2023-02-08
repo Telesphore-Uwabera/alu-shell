@@ -1,22 +1,43 @@
-#!/usr/bin/env bash
-#E
-#G
-#I
-#K
-#KO
+#!/usr/bin/env bash                                                                                                                     
 
-for num in {0..100}
-do
-        if (( num % 3 == 0 && num % 5 == 0 ))
-        then
-                echo "FizzBuzz"
-        elif (( num % 3 == 0 ))
-        then 
-                echo "Fizz"
-        elif (( num % 5 == 0 ))
-        then 
-                echo "Buzz"
-        else
-                echo "$num"
-        fi 
+#E                                                                                                                                      
+
+#G                                                                                                                                      
+
+#I                                                                                                                                      
+
+#K                                                                                                                                      
+
+#KO                                                                                                                                     
+
+                                                                                                                                        
+
+for num in {0..100}                                                                                                                     
+
+do                                                                                                                                      
+
+        if (( num % 3 == 0 && num % 5 == 0 ))                                                                                           
+
+        then                                                                                                                            
+
+                echo "FizzBuzz"                                                                                                         
+
+        elif (( num % 3 == 0 ))                                                                                                         
+
+        then                                                                                                                            
+
+                echo "Fizz"                                                                                                             
+
+        elif (( num % 5 == 0 ))                                                                                                         
+
+        then                                                                                                                            
+
+                echo "Buzz"                                                                                                             
+
+        else                                                                                                                            
+
+                echo "$num"                                                                                                             
+
+        fi                                                                                                                              
+
 done
