@@ -5,7 +5,7 @@
 #d
 #df
 
-for num in {0..100}
+for num in {1..100}
 do 
         if (( num % 3 == 0 && num % 5 == 0 ))
         then
