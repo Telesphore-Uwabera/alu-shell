@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-#script that displays Best School 10 times
-for (( i=0; i<10; i++)
-        cout << "Loop#" << i;
+#This script is displaying "Best school" 10 times
+
+for ((i=0; i<10; i++))c
+do 
+       echo "Best school"
+done 
