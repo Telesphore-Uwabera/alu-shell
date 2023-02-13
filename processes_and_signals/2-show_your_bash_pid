@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#qqq
+# shellcheck disable=SC2009
+echo $! - $BASHPID
