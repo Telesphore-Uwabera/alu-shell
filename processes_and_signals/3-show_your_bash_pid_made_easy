@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #sss
 # shellcheck disable=SC2009
-echo $$ bash
+pgrep -l bash
