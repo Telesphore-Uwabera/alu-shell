@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#dd
-echo $$bash
+#sss
+# shellcheck disable=SC2009
+echo $$ bash
