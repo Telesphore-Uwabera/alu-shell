@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#we are the one
+echo $$ > $/var/run/myscript.pid
+while true;
+do
+    echo "To infinity and beyond"
+    echo "I hate the kill command"  
+    echo "Y U no love me?!"
+done
+rm /var/run/myscript.pid
