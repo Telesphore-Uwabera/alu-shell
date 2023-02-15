@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#aaa
+kill -15 7-highlander

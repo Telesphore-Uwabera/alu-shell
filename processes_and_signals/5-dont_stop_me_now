@@ -1,3 +1,7 @@
-#!/usr/bin/env bash
-#qqqq
-kill $BASHPID 
+#!/usr/bin/env bash                                                            
+# Best school 10 times using while loop                                        
+id=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
+if [ -n $id ]
+then
+        kill -15 "$id"
+fi 
