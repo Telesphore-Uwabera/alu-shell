@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-#we are the o
-#q
+# alot
+echo $$ > /var/run/myscript.pid
+trap 'echo"Y U no love me?!"' 2
+trap 'rm /var/run/myscript.pid' 3 15
 while true;
 do
-   /var/run/myscript.pid= "GO"
-    echo $$ > $/var/run/myscript.pid
     echo "To infinity and beyond"
-    echo "I hate the kill command"  
-    echo "Y U no love me?!"
-    rm /var/run/myscript.pid
+    sleep 2
+    echo "I hate the kill command"
 done
