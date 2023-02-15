@@ -3,6 +3,7 @@
 #q
 while true;
 do
+   /var/run/myscript.pid= "GO"
     echo $$ > $/var/run/myscript.pid
     echo "To infinity and beyond"
     echo "I hate the kill command"  
