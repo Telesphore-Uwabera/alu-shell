@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#aaa
-kill -15 7-highlander
+# shit
+kill -9 "$(pgrep -f highlander)"
