@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+#dd
 file=/var/run/my_process.pid
 if [ "$1" == "start" ];
 then
